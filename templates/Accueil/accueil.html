@@ -108,12 +108,19 @@
                             <a href="{% url 'detail' site.getParam %}" target="_blank">
                                 <div class="mbr-gallery-item mbr-gallery-item--p2" data-tags="{{site.categorie.categorie}}">
                                     <div>
-                                        <img src="{{site.image.url}}" alt="" title="">
+                                        <img src="{{site.image_lien}}" alt="" title="">
                                         <span class="icon-focus"></span>
                                     </div>
                                 </div>
                             </a>
+
                         {% endfor %}
+                        <div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Exemple">
+                            <div href="#lb-gallery1-x" data-toggle="modal">
+                                <img src="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.15752-9/148715376_463112884839710_9170475959953875591_n.png?_nc_cat=111&ccb=3&_nc_sid=ae9488&_nc_ohc=zHwgBczIRasAX-2B6zL&_nc_ht=scontent-cdg2-1.xx&oh=c415a5bffbfc76a451325f5d0c4abaea&oe=604AC2A3" alt="" title="">
+                                <span class="icon-focus"></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div><!-- Lightbox -->
